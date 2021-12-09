@@ -1,4 +1,4 @@
-# My Volkswagen Polo Finder Bot
+# My Volkswagen Polo Reporter Bot
 
 A simple serverless stack application to pull avaiable cars from dogusoto.com and send them over slack
 
