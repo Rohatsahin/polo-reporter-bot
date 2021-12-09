@@ -1,0 +1,21 @@
+{
+  "name": "find-polo-bot",
+  "version": "1.0.0",
+  "description": "my volkswagen polo finder",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "locally": "node -e \"console.log(require('./src/index.js').handler({}));\""
+  },
+  "keywords": [],
+  "author": "rohat.sahin",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/web-api": "^5.5.0",
+    "aws-sdk": "^2.586.0",
+    "axios": "^0.21.1"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.2"
+  }
+}
